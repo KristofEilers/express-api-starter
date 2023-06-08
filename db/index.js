@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 try {
   const client = await mongoose.connect(process.env.MONGO_URI);
